@@ -10,10 +10,11 @@ const buttonEl = document.getElementById("button");
 
 function switchStatus() {
    if (buttonEl.textContent.includes("Accendi")) {
-    lampadinaEl.src="./img/yellow_lamp.png"
+    lampadinaEl.src="/bonus/img/yellow_lamp.png"
     buttonEl.textContent="Spegni"
    } else if (buttonEl.textContent.includes("Spegni")) {
-    lampadinaEl.src="./img/white_lamp.png"
+    lampadinaEl.src="/bonus/img/white_lamp.png"
     buttonEl.textContent="Accendi"
    }
 }
+buttonEl.addEventListener("click", switchStatus);
