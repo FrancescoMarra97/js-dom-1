@@ -5,6 +5,7 @@ const buttonEl = document.getElementById("button")
 
 
 function accendiLampadina() {
-    lampadina.src=./img/yellow_lamp.png;
+    lampadina.src="./img/yellow_lamp.png"
 }
 
+button.addEventListener("click", accendiLampadina)
